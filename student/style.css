@@ -1,0 +1,213 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------------------*/
+*{
+    font-family: 'Roboto','sans-serif';
+}
+.wrapper{
+    height:660px;
+   /* background-color:yellow;*/
+}
+
+header{
+    height:100px;
+    background-color: black;
+}
+
+section .sec_img{
+    margin-top:0px;
+    height:550px;
+    background-image:url("images/home1.jpg");
+}
+
+footer{
+    height:80px;
+    background-color:#301934;
+}
+.logo img{
+    height:90px;
+    width:90px;
+}
+.logo{
+    float:left;
+    padding-left:30px;
+}
+li a{
+    color:white;
+    text-decoration:none;
+    margin-right:15px;
+}
+nav{
+    float:right;
+    word-spacing: 30px;
+    padding:20px;
+    position:sticky;
+}
+nav li{
+    display:inline-block;
+    line-height:80px;
+}
+.box{
+    padding-top:35px;
+    height:250px;
+    width:450px;
+    background-color:#0c1013;
+    border:2px solid white;
+    border-radius:20px 20px;
+    margin:50px auto;
+    opacity:0.7;
+    color:white;
+}
+.box h1{
+    opacity:1;
+    font-family:'Merriweather Sans', sans-serif;;
+}
+
+/*-------------------------------------student_login--------------*/
+
+.log_img{
+    margin-top:0px;
+    height:700px;
+    background-image:url("images/stu_login.png");
+    background-size: cover;
+}
+.box1{
+    height:500px;
+    width:500px;
+    background-color:black;
+    margin:70px auto;
+    opacity:0.7;
+    color:white;
+    padding:40px;
+    border-radius: 30px;
+}
+form .login{
+    margin:auto 70px;
+}
+input{
+    height:20px;
+    width:200px;
+}
+
+/*-------------------------------------registration--------------*/
+.reg_img{
+    margin-top:0px;
+    height:800px;
+    background-image:url("images/stu_reg.png");
+    background-size: cover;
+}
+.box2{
+    height:680px;
+    width:500px;
+    background-color:black;
+    margin:0px auto;
+    opacity:0.7;
+    color:white;
+    padding:40px;
+    border-radius: 30px;
+}
+input{
+    height:35px;
+    width:300px;
+}
