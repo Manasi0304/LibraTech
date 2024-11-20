@@ -117,12 +117,12 @@ header{
 
 section .sec_img{
     margin-top:0px;
-    height:550px;
+    height:570px;
     background-image:url("images/home1.jpg");
 }
 
 footer{
-    height:80px;
+    height:200px;
     background-color:#301934;
 }
 .logo img{
@@ -149,8 +149,8 @@ nav li{
     line-height:80px;
 }
 .box{
-    padding-top:35px;
-    height:250px;
+    padding-top:80px;
+    height:230px;
     width:450px;
     background-color:#0c1013;
     border:2px solid white;
@@ -198,10 +198,10 @@ input{
     background-size: cover;
 }
 .box2{
-    height:680px;
+    height:700px;
     width:500px;
     background-color:black;
-    margin:0px auto;
+    margin:20px auto;
     opacity:0.7;
     color:white;
     padding:40px;
@@ -210,4 +210,10 @@ input{
 input{
     height:35px;
     width:300px;
+}
+
+
+/*-----books----*/
+.srch{
+    padding-left:1000px;
 }
